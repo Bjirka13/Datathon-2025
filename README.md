@@ -11,13 +11,13 @@ Dataset terdiri dari:
 - Informasi edge (hubungan pengirim–penerima transaksi)
 - Label target: `0` = Legitimate, `1` = Money Laundering
 
-## 🔧 Teknologi & Tools
+## Teknologi & Tools
 - Python 3.x
 - PyTorch & PyTorch Geometric
 - Scikit-learn
 - Matplotlib (visualisasi confusion matrix)
 
-## ⚙️ Arsitektur Model
+## Arsitektur Model
 ```python
 class GCN(nn.Module):
     def __init__(self, in_channels, hidden_channels, out_channels):
